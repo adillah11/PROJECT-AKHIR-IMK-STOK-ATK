@@ -1,0 +1,24 @@
+Membuat Aplikasi Stok Barang Berbasis Web (PHP+MySQL)
+1. Setup Template + Setup Database
+2. Login & Logout
+3. Setup Halaman + Datatables
+4. Insert Data (Data Barang, Barang masuk, barang keluar)
+5. Menampilkan data ke table
+6. Update + Delete
+
+inputan user -> ambil inputan -> kita cek didatabase
+-- kalo ada: redirect ke halaman home
+--else: gagal, login ulang
+
+DB: 
+-Login: iduser, email, password
+-stock: id barang, namabarang, deskripsi, stock
+-masuk: idmasuk, idbarang, tanggal, keterangan
+-keluar: idkeluar, idbarang, tanggal, penerima
+
+sitemap:
+-Login
+-Home: Stock Barang
+-Barang Keluar
+-Barang Masuk
+-Logout
